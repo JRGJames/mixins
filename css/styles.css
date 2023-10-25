@@ -1,0 +1,124 @@
+/* Variables */
+/* Mixins */
+/* Styles */
+* {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(/img/header.a6837f08.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  backdrop-filter: blur(15px);
+}
+
+.navbar {
+  position: sticky;
+  backdrop-filter: blur(20px);
+  background-color: rgba(235, 235, 235, 0.6);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 5em;
+}
+.navbar h1 {
+  display: flex;
+  font-style: italic;
+  font-size: 2em;
+  margin-left: 1em;
+  justify-content: flex-start;
+  flex-grow: 8;
+  color: white;
+}
+.navbar .links {
+  flex-grow: 2;
+  display: flex;
+  justify-content: flex-end;
+  justify-content: space-around;
+}
+.navbar li {
+  list-style: none;
+}
+.navbar a {
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+}
+
+main {
+  display: flex;
+}
+
+.aside-menu {
+  margin: 1em 2em;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 2;
+  text-align: center;
+}
+.aside-menu .aside-title {
+  font-size: 1.2em;
+  display: flex;
+  height: 4em;
+  color: white;
+  border-bottom: 1px solid rgb(235, 235, 235);
+  flex-direction: column;
+  justify-content: end;
+}
+.aside-menu .aside-item {
+  margin: 1em 0.5em;
+  font-size: 1.2em;
+  background-color: rgba(235, 235, 235, 0.6);
+  padding: 1em 3em;
+  border-radius: 10px;
+}
+.aside-menu .aside-item a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.container {
+  margin: 3em 1em;
+  display: flex;
+  flex-grow: 6;
+  flex-wrap: wrap;
+  gap: 1em;
+  justify-content: space-evenly;
+}
+.container .item {
+  background-color: rgba(235, 235, 235, 0.6);
+  height: 250px;
+  width: 250px;
+  border-radius: 10px;
+}
+.container .image img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.container .name-description {
+  line-height: 0.3em;
+  margin-left: 0.8em;
+}
+.container .name-description p:first-child {
+  color: white;
+  font-weight: bold;
+}
+.container .name-description p:nth-child(2) {
+  color: white;
+}
+
+footer {
+  height: 5em;
+}
+footer .footer-title {
+  margin-top: 3.2rem;
+  margin-left: 1em;
+  font-style: italic;
+  color: white;
+}
+
+/*# sourceMappingURL=styles.css.map */
